@@ -92,5 +92,10 @@ curl -X POST http://localhost:4000/api/files/upload \
 ### File & Folder Sharing
 ![File Sharing](docs/images/sharing.png)
 
-### Storage
-![AWS S3 Storage](docs/images/storage.png)
+### Sharing as Public Link
+![Public Link Creation](docs/images/publiclink1.png)
+
+### Accessing the Public Link
+![Public Link Creation](docs/images/publiclink2.png)
+
+
