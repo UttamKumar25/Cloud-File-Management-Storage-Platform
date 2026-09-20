@@ -80,3 +80,17 @@ curl -X POST http://localhost:4000/api/files/upload \
 - Configure S3 lifecycle/versioning, backups, and least-privilege IAM.
 - Use a reverse proxy with upload timeouts sized for your expected largest file.
 - For files substantially larger than a few hundred MB, add presigned multipart-upload endpoints so browsers upload directly to S3 rather than holding the whole body in the API process.
+
+## Screenshots
+
+### Dashboard
+![Cloud File Dashboard](docs/images/dashboard.png)
+
+### File Upload
+![File Upload](docs/images/file-upload.png)
+
+### File & Folder Sharing
+![File Sharing](docs/images/sharing.png)
+
+### Storage
+![AWS S3 Storage](docs/images/storage.png)
